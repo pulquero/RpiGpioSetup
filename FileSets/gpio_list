@@ -14,15 +14,15 @@
 # The <name> part is used to create an symlink in /dev/gpio.
 
 # relays are active HIGH
-# Relay 1   GPIO 21 / header pin 40
-21  out relay_1
-# Relay 2   GPIO 17 / header pin 11
-17  out relay_2
+# Relay 1 - HAT
+4  out relay_1
+# Relay 2 - HAT
+22  out relay_2
+# Relay 3 - HAT
+6  out relay_3
+# Relay 4 - HAT
+26  out relay_4
 
-# Relay 3   GPIO 27 / header pin 13
-27  out relay_3
-# Relay 4   GPIO 22 / header pin 15
-22  out relay_4
 # Relay 5   GPIO 23 / header pin 16
 23  out relay_5
 # Relay 6   GPIO 24 / header pin 18
